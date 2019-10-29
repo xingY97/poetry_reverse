@@ -1,3 +1,5 @@
+import random
+
 poem = """If you are a dreamer, come in,
 If you are a dreamer, a wisher, a liar,
 A hope-er, a pray-er, a magic bean buyer…
@@ -21,10 +23,9 @@ def line_printed_backwards(lines_list):
         print(str(list_num) +" " + lines_list[i])
         list_num -= 1
 
-    
 def lines_printed_random():
     """randomly select lines from a list of strings and print them out in random order"""
-    pass
+    print(random.choice(lines_list))
 
 def my_custom_function():
     """does somthing of my choosing 
@@ -34,5 +35,5 @@ def my_custom_function():
 #TODO:Get poem string into list of lines
 lines_list = poem.split("\n")
 line_printed_backwards(lines_list)
-#lines_printed_random()
+lines_printed_random()
 #my_custom_function()
