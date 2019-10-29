@@ -1,42 +1,4 @@
-<<<<<<< HEAD
 
-Backwards Poetry
-Description
-In this project we will write a Python program to print out poetry backwards, randomly, and any way you can rearrange! By reading a poem in news ways we can discover new meanings or invite new interpretations.
-
-Credit to Mark D. LeBlanc for their project posted on EngageCSEdu
-
-Learning Outcomes
-By completing this project, you should be able to…
-
-Implement functions
-Practice storing items in lists and reading from them
-Implement loops
-String manipulation and formatting
-Apply the random module to your programs
-Make connections to fields outside of CS
-Schedule
-From the day this project is assigned, you will have approximately 1 week to complete this project. A sample daily outline is provided to assist you in planning your project.
-
-Important note: “Day 01” refers to the first calendar day of the project being assigned, and subsequent days will follow this reference:
-
-Day 01: Project assigned, read the project spec, ask any clarifying questions you may have, begin designing how you would implement the project, set up your repo
-Day 03: Build lines_printed_backwards() function
-Day 05: Build lines_printed_random() function
-Day 06: Build a rearrange function of your choice
-Day 07: Fix any remaining bugs, make sure your code has helpful comments, and submit the project!
-Requirements
-You can store your poem as a multi line string in Python, you do not need to read from a file.
-
-Your code should implement the lines_printed_backwards() function. This function takes in a list of strings containing the lines of your poem as arguments and will print the poem lines out in reverse with the line numbers reversed. For example, if you poem is Invitation by Shel Silverstein:
-
-If you are a dreamer, come in,
-If you are a dreamer, a wisher, a liar,
-A hope-er, a pray-er, a magic bean buyer…
-If you’re a pretender, come sit by my fire
-For we have some flax-golden tales to spin.
-Come in!
-=======
 # Backwards Poetry
 
 ## Description
@@ -54,18 +16,6 @@ By completing this project, you should be able to…
 1. String manipulation and formatting
 1. Apply the random module to your programs
 1. Make connections to fields outside of CS
-
-## Schedule
-
-From the day this project is assigned, you will have approximately **1 week** to complete this project. A sample daily outline is provided to assist you in planning your project.
-
-**Important note:** “Day 01” refers to the first calendar day of the project being assigned, and subsequent days will follow this reference:
-
-- Day 01: Project assigned, read the project spec, ask any clarifying questions you may have, begin designing how you would implement the project, set up your repo
-- Day 03: Build lines_printed_backwards() function
-- Day 05: Build lines_printed_random() function
-- Day 06: Build a rearrange function of your choice
-- Day 07: Fix any remaining bugs, make sure your code has helpful comments, and submit the project!
 
 ## Requirements
 
